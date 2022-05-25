@@ -1,0 +1,120 @@
+.header{
+    display: flex;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    background-color: rgb(255,255,255);
+    height: 4.2rem;
+    border-bottom: 1px solid #f1f1f1;
+    z-index: 250;
+}
+li{
+    list-style:none;
+}
+.header .container{
+    max-width: 1400px;
+    margin: auto;
+    list-style: none;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    width: 100%;
+}
+.header .container .header-navigation{
+    margin-left: 1rem;
+    flex: 1 0 auto;
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    flex-direction: row-reverse;
+    height: 100%;
+    margin: 0;
+}
+.main-nav-list{
+    display: flex;
+    order: 99;
+    color: rgb(81, 87, 103);
+}
+.main-nav-list ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-size:10px;
+}
+.main-nav-list ul .main-nav-item{
+    padding: 0 1rem;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    height: 4rem;
+    margin: 0;
+} 
+.aside-nav-list{
+    display: flex;
+    font-size: 1.16rem;
+    
+}
+.aside-nav-list .aside-nav-item{
+    padding:0 1rem;
+}
+.logoimg{
+    height: 1.4rem;
+}
+.searchform{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    position: relative;
+    height: 2rem;
+    border: 1px solid #c2c8d1;
+}
+.searchform:hover{
+    border: 1px solid rgb(138, 145, 159);
+}
+.search-icon-container{
+    background-color: rgb(242, 243, 245);
+    border-radius: 5px;
+    display: flex;
+    vertical-align: center;
+    justify-content: center;
+    height: 100%;
+    width: 50px;
+}
+.searchform input{
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 100%;
+    border: none;
+    outline: none;
+}
+.search-icon{
+    display: inline-block;
+    height: 17px;
+    cursor: pointer;
+    padding:10px 10px;
+}
+.aside-nav-list li{
+    padding: 0 30px;
+}
+.login-button{
+    margin: 0;
+    padding: 0;
+    border-color: rgb(179, 213, 255);
+    background-color: rgb(244, 249, 255);
+    color: rgb(0, 127, 255);
+    outline: none;
+    border: none;
+    width: 67px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid;
+    cursor: pointer;
+}

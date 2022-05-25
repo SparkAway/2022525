@@ -1,0 +1,68 @@
+.Detailspage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.articlebox{
+    
+    padding:10px 20px 10px 20px;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    width: 960px;
+    background-color: rgb(255,255,255);
+}
+.authorbox{
+    display: flex;
+}
+.author_icon{
+    width: 50px;
+    height: 50px;
+}
+.author_icon img{
+    height: 100%;
+    width: 100%;
+}
+.author_info{
+    margin-left: 12px;
+}
+.author_name{
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+.author_descibe{
+    color: rgb(81, 87, 103);
+    font-size: 14px;
+}
+
+.commentcontent{
+    padding:20px 20px 10px 20px;
+    width: 960px;
+    background-color: rgb(255,255,255);
+}
+.title{
+    font-size: 25px;
+    font-weight: 700;
+}
+.list{
+    margin-top: 30px;
+}
+.hasmorefirstcomment{
+   display: flex;
+   justify-content: center;
+}
+.hasmorefirstcomment p{
+    cursor: pointer;
+    font-size: 18px;
+}
+.hasmorefirstcomment p:hover{
+    font-size: 20px;
+}
+.nomorefirstcomment{
+    display: flex;
+    justify-content: center;
+}
+.nomorefirstcomment p{
+    font-size: 16px;
+    font-weight: 800;
+    color: rgb(222, 225, 230);
+}

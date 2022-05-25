@@ -1,0 +1,29 @@
+.commentbox{
+    display: flex;
+    margin: 30px 0 35px 0;
+}
+.secondcommentbox{
+    display: flex;
+    margin: 20px 0 20px 0;
+}
+.commentmain{
+    margin-left: 16px;
+}
+.usericon{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+.usericon img{
+   height: 100%;
+   width: 100%;
+   border-radius: 50%;
+}
+.mainbox .content{
+    margin-top: 5px;
+    color: rgb(81, 87, 103);
+}
+.secondmainbox .content{
+    color: rgb(81, 87, 103);
+    margin-top: 5px;
+}

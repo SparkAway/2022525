@@ -1,0 +1,118 @@
+a{
+    text-decoration: none;
+}
+.username{
+    color: rgb(78, 89, 105);
+}
+.username:hover{
+    color: rgb(0, 127, 255);
+}
+.meta{
+    padding-right: 14px;
+    font-size: 13px;
+    border-right: 1px solid rgb(234, 234, 234);
+}
+.tag_list{
+    padding-right: 14px;
+    font-size: 13px;
+    border-right: 1px solid rgb(234, 234, 234);
+}
+.tag_list span:hover{
+    color: rgb(0, 127, 255);
+}
+.meta:hover{
+    color: rgb(0, 127, 255);
+}
+.date{
+    color: rgb(150, 144, 156);
+    padding-left: 10px;
+}
+.tag_list{
+    color: rgb(150, 144, 156);
+    padding-left: 10px;
+    border-right: none;
+}
+.article{
+    cursor: pointer;
+    position: relative;
+    background: #fff;
+    padding: 12px 20px 0;
+    display: flex; 
+    flex-direction: column;
+    align-items: flex-start;
+    border-bottom: 1px solid rgb(229, 230, 235);
+}
+.meta-container{
+    display: flex;
+    align-items: center;
+}
+.action-list{
+    display: flex;
+    align-items: center;
+}
+.content-main{
+    width: 100%;
+}
+.content-wrap{
+    display: flex;
+    width: 100%;
+    padding-bottom: 12px;
+    margin-top: 10px;
+}
+.item{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    font-size: 13px;
+}
+.item span{
+    margin-left: 4px;
+}
+.view i{
+    background-image: url(https://lf3-cdn-tos.bytescm.com/obj/static/xitu_juejin_web/img/view.1eda8fa.png);
+    display: block;
+    height: 16px;
+    width: 16px;
+    background-size: 100%;
+}
+.like i{
+    background-image: url('/src/img/like.png');
+    display: block;
+    height: 16px;
+    width: 16px;
+    background-size: 100%;
+}
+.comment i{
+    background-image: url('/src/img/comment.png');
+    display: block;
+    height: 16px;
+    width: 16px;
+    background-size: 100%;
+}
+.title{
+    display: flex;
+    margin-bottom: 8px;
+    width: 100%;
+}
+.title-content{
+    color: rgb(0,0,0);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    width: 100%;
+    overflow: hidden;
+}
+.abstract{
+    margin-bottom:10px;
+}
+.abstract-content{
+    font-size: 13px;
+    cursor: pointer;
+    display:-webkit-box;
+    -webkit-line-clamp: 1;
+    color: rgb(134, 144, 156);
+    width: 100%;
+    line-height: 22px;
+    -webkit-box-orient:vertical;
+    overflow: hidden;
+}
